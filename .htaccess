@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^ https://mstferngzl.com%{REQUEST_URI} [NS,R,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Bu etki alanı, “PHP” paketini miras alır.
+# php -- END cPanel-generated handler, do not edit
